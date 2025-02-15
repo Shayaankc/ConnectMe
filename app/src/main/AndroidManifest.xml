@@ -19,18 +19,20 @@
 <!--            android:name=".signupPage"-->
 <!--            android:exported="true" >-->
 
-<!--        <activity-->
-<!--            android:name=".LoginPage"-->
-<!--            android:exported="false" />-->
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginPage"
             android:exported="true" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
