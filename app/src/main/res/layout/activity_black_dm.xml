@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313133">
+
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/back"
+        />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Henry Benjamin"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/backbutton"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/username"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dp1black" />
+    <Button
+        android:id="@+id/viewprofile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profilepic"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#4C3E30"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, How are you?"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_textviewbrown"
+        android:padding="13dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:30"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#918880"
+        />
+
+    <ImageView
+        android:id="@+id/shdp1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/backbutton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/dp1black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, I am great, Wbu?"
+        android:layout_toRightOf="@+id/shdp1"
+        android:layout_below="@id/backbutton"
+        android:textColor="@color/white"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_textviewbrown"
+        android:padding="13dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:32"
+        android:textSize="10sp"
+        android:layout_toRightOf="@+id/shdp1"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#918880"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am doing well"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:textColor="@color/white"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_textviewbrown"
+        android:padding="13dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:30"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="490dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#918880"
+        />
+
+    <ImageView
+        android:id="@+id/shdp2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/dp1black" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good to know"
+        android:layout_toRightOf="@+id/shdp1"
+        android:layout_below="@id/backbutton"
+        android:textColor="@color/white"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_textviewbrown"
+        android:padding="13dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:30"
+        android:textSize="10sp"
+        android:layout_toRightOf="@+id/shdp2"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#918880"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You've turned on vanish mode. New messages will disappear in 24 hours after everyone has seen them."
+        android:textColor="@color/white"
+        android:textSize="11dp"
+        android:layout_below="@+id/shdp2"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is something IMP you should know"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/shdp2"
+        android:background="@drawable/rounded_textviewbrown"
+        android:padding="13dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:40"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/shdp2"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#918880"
+        />
+    <EditText
+        android:id="@+id/messageinput"
+        android:layout_width="350sp"
+        android:layout_height="62sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="29dp"
+        android:layout_weight="1"
+        android:hint="Typing..."
+        android:padding="10dp"
+        android:textColor="#918880"
+        android:textSize="16sp"
+        android:background="#4C3E30"
+        />
+
+    <ImageView
+        android:id="@+id/sendbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/send"
+
+        />
+
+
+
+
+
+</RelativeLayout>
