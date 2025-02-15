@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <!-- Back Button -->
     <ImageView
         android:id="@+id/backbutton"
         android:layout_width="wrap_content"
@@ -13,7 +12,6 @@
         android:layout_margin="20dp"
         android:src="@drawable/back" />
 
-    <!-- User Name -->
     <TextView
         android:id="@+id/username"
         android:layout_width="wrap_content"
@@ -25,7 +23,6 @@
         android:layout_marginTop="20dp"
         />
 
-    <!-- Call & Video Icons -->
     <ImageView
         android:id="@+id/callicon"
         android:layout_width="wrap_content"
@@ -44,7 +41,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp" />
 
-    <!-- Profile Picture -->
     <ImageView
         android:id="@+id/profilepic"
         android:layout_width="110dp"
