@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Back Button -->
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/back" />
+
+    <!-- User Name -->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Henry Benjamin"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/backbutton"
+        android:layout_marginTop="20dp"
+        />
+
+    <!-- Call & Video Icons -->
+    <ImageView
+        android:id="@+id/callicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_call_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp" />
+
+    <ImageView
+        android:id="@+id/videoicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vidcall"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp" />
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/username"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dp1" />
+    <Button
+        android:id="@+id/viewprofile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profilepic"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#CDC7C1"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, How are you?"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_textview"
+        android:padding="13dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:30"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/shdp1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/backbutton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="470dp"
+        android:src="@drawable/dp1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, I am great, Wbu?"
+        android:layout_toRightOf="@+id/shdp1"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_textview"
+        android:padding="13dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:32"
+        android:textSize="10sp"
+        android:layout_toRightOf="@+id/shdp1"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am doing well"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="540dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_textview"
+        android:padding="13dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:30"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="590dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/shdp2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/dp1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good to know"
+        android:layout_toRightOf="@+id/shdp1"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_textview"
+        android:padding="13dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:30"
+        android:textSize="10sp"
+        android:layout_toRightOf="@+id/shdp2"
+        android:layout_below="@id/backbutton"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <EditText
+        android:id="@+id/messageinput"
+        android:layout_width="350sp"
+        android:layout_height="62sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="29dp"
+        android:layout_weight="1"
+        android:hint="Typing..."
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:background="#B8B2AC"
+        />
+
+    <ImageView
+        android:id="@+id/sendbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/send"
+
+        />
+
+
+
+
+
+</RelativeLayout>
