@@ -35,7 +35,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="410 Followers"
-        android:textStyle="bold"
         android:textSize="18sp"
         android:layout_below="@+id/oliviaD"
         android:layout_marginTop="8dp"
@@ -48,7 +47,7 @@
         android:background="#000000"
         android:layout_marginBottom="5dp"
         android:layout_below="@+id/dmtxt"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="250dp"
         />
 
     <TextView
@@ -58,6 +57,7 @@
         android:textSize="18sp"
         android:layout_toRightOf="@+id/dmtxt"
         android:layout_below="@+id/oliviaD"
+        android:textStyle="bold"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="110dp"
 
@@ -91,25 +91,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/searchDm"
-        android:id="@+id/alfredo"
+        android:id="@+id/olymp"
         >
 
         <ImageView
-            android:id="@+id/alfredodp"
+            android:id="@+id/olympdp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp13" />
+            android:src="@drawable/dp14" />
 
         <TextView
-            android:id="@+id/alfredotxt"
+            android:id="@+id/olymptxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alfredo Lipshutz"
+            android:text="Olympia Gassert"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/alfredodp"
+            android:layout_toRightOf="@+id/olympdp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="271dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/alfredodp"
+            android:layout_toRightOf="@+id/olympdp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -129,26 +129,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/alfredo"
-        android:id="@+id/emily"
+        android:layout_below="@id/olymp"
+        android:id="@+id/caramel"
         >
 
         <ImageView
-            android:id="@+id/emilydp"
+            android:id="@+id/carameldp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp2" />
+            android:src="@drawable/dp15" />
 
         <TextView
-            android:id="@+id/emilytxt"
+            android:id="@+id/carameltxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Emily James"
+            android:text="Caramel Humenik"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/emilydp"
+            android:layout_toRightOf="@+id/carameldp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -159,7 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="270dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/emilydp"
+            android:layout_toRightOf="@+id/carameldp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -168,26 +168,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/emily"
-        android:id="@+id/lily"
+        android:layout_below="@id/caramel"
+        android:id="@+id/tony"
         >
 
         <ImageView
-            android:id="@+id/lilydp"
+            android:id="@+id/tonydp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp3" />
+            android:src="@drawable/dp16" />
 
         <TextView
-            android:id="@+id/lilytxt"
+            android:id="@+id/tonytxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lily Thomas"
+            android:text="Tony Penberthy"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/lilydp"
+            android:layout_toRightOf="@+id/tonydp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -198,7 +198,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="270dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/lilydp"
+            android:layout_toRightOf="@+id/tonydp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -207,26 +207,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/lily"
-        android:id="@+id/chris"
+        android:layout_below="@id/tony"
+        android:id="@+id/heath"
         >
 
         <ImageView
-            android:id="@+id/chrisdp"
+            android:id="@+id/heathdp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp4" />
+            android:src="@drawable/dp17" />
 
         <TextView
-            android:id="@+id/christxt"
+            android:id="@+id/heathtxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Christopher"
+            android:text="Heathcliff Boward"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/chrisdp"
+            android:layout_toRightOf="@+id/heathdp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -237,7 +237,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="268dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/chrisdp"
+            android:layout_toRightOf="@+id/heathdp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -246,26 +246,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/chris"
-        android:id="@+id/amy"
+        android:layout_below="@id/heath"
+        android:id="@+id/fan"
         >
 
         <ImageView
-            android:id="@+id/amydp"
+            android:id="@+id/fandp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp5" />
+            android:src="@drawable/dp18" />
 
         <TextView
-            android:id="@+id/amytxt"
+            android:id="@+id/fantxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Amy Wesley"
+            android:text="Fanni Medawar"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/amydp"
+            android:layout_toRightOf="@+id/fandp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -276,7 +276,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="269dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/amydp"
+            android:layout_toRightOf="@+id/fandp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -285,26 +285,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/amy"
-        android:id="@+id/laura"
+        android:layout_below="@id/fan"
+        android:id="@+id/ava"
         >
 
         <ImageView
-            android:id="@+id/lauradp"
+            android:id="@+id/avadp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp6" />
+            android:src="@drawable/dp19" />
 
         <TextView
-            android:id="@+id/lauratxt"
+            android:id="@+id/avatxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Laura Ryan"
+            android:text="Ava Bennin"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/lauradp"
+            android:layout_toRightOf="@+id/avadp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -315,7 +315,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="268dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/lauradp"
+            android:layout_toRightOf="@+id/avadp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -324,26 +324,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/laura"
-        android:id="@+id/sandra"
+        android:layout_below="@id/ava"
+        android:id="@+id/tina"
         >
 
         <ImageView
-            android:id="@+id/sandradp"
+            android:id="@+id/tinadp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp7" />
+            android:src="@drawable/dp20" />
 
         <TextView
-            android:id="@+id/sandratxt"
+            android:id="@+id/tinatxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sandra Dady"
+            android:text="Tina Ayola"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/sandradp"
+            android:layout_toRightOf="@+id/tinadp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -354,7 +354,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="266dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/sandradp"
+            android:layout_toRightOf="@+id/tinadp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -363,26 +363,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sandra"
-        android:id="@+id/mari"
+        android:layout_below="@id/tina"
+        android:id="@+id/stern"
         >
 
         <ImageView
-            android:id="@+id/maridp"
+            android:id="@+id/sterndp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp8" />
+            android:src="@drawable/dp21" />
 
         <TextView
-            android:id="@+id/maritxt"
+            android:id="@+id/sterntxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Marigold Gomzales"
+            android:text="Stern Saulo"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/maridp"
+            android:layout_toRightOf="@+id/sterndp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -393,7 +393,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="268dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/maridp"
+            android:layout_toRightOf="@+id/sterndp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -402,26 +402,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/mari"
-        android:id="@+id/imo"
+        android:layout_below="@id/stern"
+        android:id="@+id/meg"
         >
 
         <ImageView
-            android:id="@+id/imodp"
+            android:id="@+id/megdp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp9" />
+            android:src="@drawable/dp22" />
 
         <TextView
-            android:id="@+id/imotxt"
+            android:id="@+id/megtxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Imojean Swigert"
+            android:text="Meggie Bussler"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/imodp"
+            android:layout_toRightOf="@+id/megdp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -432,7 +432,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="268dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/imodp"
+            android:layout_toRightOf="@+id/megdp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -441,26 +441,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imo"
-        android:id="@+id/aleck"
+        android:layout_below="@id/meg"
+        android:id="@+id/carm"
         >
 
         <ImageView
-            android:id="@+id/aleckdp"
+            android:id="@+id/carmdp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp10" />
+            android:src="@drawable/dp23" />
 
         <TextView
-            android:id="@+id/alecktxt"
+            android:id="@+id/carmtxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aleck Epley"
+            android:text="Carmelina Boshard"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/aleckdp"
+            android:layout_toRightOf="@+id/carmdp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -471,7 +471,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="269dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/aleckdp"
+            android:layout_toRightOf="@+id/carmdp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -480,26 +480,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/aleck"
-        android:id="@+id/rana"
+        android:layout_below="@id/carm"
+        android:id="@+id/shay"
         >
 
         <ImageView
-            android:id="@+id/ranadp"
+            android:id="@+id/shaydp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp11" />
+            android:src="@drawable/dp24" />
 
         <TextView
-            android:id="@+id/ranatxt"
+            android:id="@+id/shaytxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rana Serandos"
+            android:text="Shaylyn Babbs"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/ranadp"
+            android:layout_toRightOf="@+id/shaydp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -510,7 +510,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="271dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/ranadp"
+            android:layout_toRightOf="@+id/shaydp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
@@ -520,26 +520,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rana"
-        android:id="@+id/blinky"
+        android:layout_below="@id/shay"
+        android:id="@+id/del"
         >
 
         <ImageView
-            android:id="@+id/blinkydp"
+            android:id="@+id/deldp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@color/white"
-            android:src="@drawable/dp12" />
+            android:src="@drawable/dp25" />
 
         <TextView
-            android:id="@+id/blinkytxt"
+            android:id="@+id/deltxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blinky Vieyra"
+            android:text="Delbert Pownell"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/blinkydp"
+            android:layout_toRightOf="@+id/deldp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             />
@@ -550,7 +550,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="271dp"
             android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/blinkydp"
+            android:layout_toRightOf="@+id/deldp"
             android:background="@color/white"
             android:src="@drawable/message" />
 
