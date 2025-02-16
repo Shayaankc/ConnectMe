@@ -51,6 +51,12 @@ class ProfilePage : AppCompatActivity() {
             startActivity(Intent(this,Search::class.java))
             finish()
         }
+        val button3 = findViewById<ImageView>(R.id.contact)
+        button3.setOnClickListener {
+            val intent = Intent(this, Contacts::class.java)
+            startActivity(intent)
+            finish()
+        }
 
 
     }

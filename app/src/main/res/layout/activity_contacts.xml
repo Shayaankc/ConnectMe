@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Contacts">
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/white"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/oliviaD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OliviaD"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/backbutton"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/newDmtxt"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="310dp"
+        android:layout_toRightOf="@+id/backbutton"
+        android:background="@color/white"
+        android:src="@drawable/newdm" />
+
+    <TextView
+        android:id="@+id/dmtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_below="@+id/oliviaD"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        />
+
+
+    <TextView
+        android:id="@+id/contxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Contacts"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_below="@+id/searchDm"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/searchDm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dmtxt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:hint="Search for friends"
+        android:textSize="20sp"
+        android:minHeight="48dp"
+        android:padding="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/searchicon"
+        android:alpha="50"
+        android:layout_below="@+id/dmtxt"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="37dp"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contxt"
+        android:id="@+id/henry"
+        >
+
+        <ImageView
+            android:id="@+id/henrydp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:src="@drawable/dp1" />
+
+        <TextView
+            android:id="@+id/henrytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Henry Benjamin"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/henrydp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/msg1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/henrydp"
+            android:background="@color/white"
+            android:src="@drawable/message" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/henry"
+        android:id="@+id/emily"
+        >
+
+        <ImageView
+            android:id="@+id/emilydp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:src="@drawable/dp2" />
+
+        <TextView
+            android:id="@+id/emilytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emily James"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/emilydp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/cam2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/emilydp"
+            android:background="@color/white"
+            android:src="@drawable/message" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emily"
+        android:id="@+id/lily"
+        >
+
+        <ImageView
+            android:id="@+id/lilydp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:src="@drawable/dp3" />
+
+        <TextView
+            android:id="@+id/lilytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lily Thomas"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/lilydp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/cam3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/lilydp"
+            android:background="@color/white"
+            android:src="@drawable/message" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/laura"
+        android:id="@+id/chris"
+        >
+
+        <ImageView
+            android:id="@+id/chrisdp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:src="@drawable/dp4" />
+
+        <TextView
+            android:id="@+id/christxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Christopher"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/chrisdp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invite"
+            android:textColor="@color/white"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/chrisdp"
+            android:background="@drawable/rounded_textviewbrown"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invite New Freinds"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_below="@+id/lily"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lily"
+        android:layout_marginTop="40dp"
+        android:id="@+id/amy"
+        >
+
+        <ImageView
+            android:id="@+id/amydp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:src="@drawable/dp5" />
+
+        <TextView
+            android:id="@+id/amytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amy Wesley"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/amydp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invite"
+            android:textColor="@color/white"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/amydp"
+            android:background="@drawable/rounded_textviewbrown"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amy"
+        android:id="@+id/laura"
+        >
+
+        <ImageView
+            android:id="@+id/lauradp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:src="@drawable/dp6" />
+
+        <TextView
+            android:id="@+id/lauratxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laura Ryan"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/lauradp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invite"
+            android:textColor="@color/white"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/lauradp"
+            android:background="@drawable/rounded_textviewbrown"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#Fcfcfc"
+        >
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/home"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home"
+            android:layout_marginLeft="20dp"
+            android:text="Home"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/searchicon"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search"
+            android:layout_marginLeft="100dp"
+            android:text="Search"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/bgcircle" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/plus" />
+
+        <ImageView
+            android:id="@+id/prof"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search"
+            android:layout_marginLeft="260dp"
+            android:text="Profile"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/contact"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/contacts" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact"
+            android:layout_marginLeft="340dp"
+            android:text="Contacts"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

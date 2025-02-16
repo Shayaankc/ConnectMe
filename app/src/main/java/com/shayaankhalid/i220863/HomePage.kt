@@ -60,5 +60,10 @@ class HomePage : AppCompatActivity() {
             val intent = Intent(this, ProfilePage::class.java)
             startActivity(intent)
         }
+        val button3 = findViewById<ImageView>(R.id.contact)
+        button3.setOnClickListener {
+            val intent = Intent(this, Contacts::class.java)
+            startActivity(intent)
+        }
     }
 }
