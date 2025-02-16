@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search"
+    android:background="#FFFFFF"
+    >
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:hint="Search"
+        android:minHeight="48dp"
+        android:padding="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/searchicon"
+        android:alpha="50"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="77dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="120dp"
+        android:text="Recent Searches"
+        android:textStyle="bold"
+        android:textColor="#563D27"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="170dp"
+        android:text="Henry Benjamin"
+        android:textColor="#563D27"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/cross"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="220dp"
+        android:text="Emily James"
+        android:textColor="#563D27"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/cross"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="270dp"
+        android:text="Lily Thomas"
+        android:textColor="#563D27"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/cross"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/home"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home"
+            android:layout_marginLeft="20dp"
+            android:text="Home"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/searchicon"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search"
+            android:layout_marginLeft="100dp"
+            android:text="Search"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/bgcircle" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/plus" />
+
+        <ImageView
+            android:id="@+id/prof"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search"
+            android:layout_marginLeft="260dp"
+            android:text="Profile"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/contact"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/contacts" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact"
+            android:layout_marginLeft="340dp"
+            android:text="Contacts"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+    </RelativeLayout>
+</RelativeLayout>
