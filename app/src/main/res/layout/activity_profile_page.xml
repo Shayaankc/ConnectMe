@@ -1,108 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Search"
-    android:background="#FFFFFF"
+    tools:context=".ProfilePage"
+    android:background="@color/white"
     >
 
-
-    <EditText
-        android:id="@+id/search"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/eptxt"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginRight="20dp"
-        android:background="#FFFFFF"
-        android:hint="Search"
-        android:minHeight="48dp"
-        android:padding="15dp"/>
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="My Profile"
+        android:textSize="23sp"
+        android:textStyle="bold" />
 
     <ImageView
+        android:id="@+id/edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/searchicon"
-        android:alpha="50"
-        android:layout_marginLeft="350dp"
-        android:layout_marginTop="77dp"
-        />
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/editicon"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/eptxt"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/oliviad1" />
 
     <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="120dp"
-        android:text="Recent Searches"
+        android:text="Olivia Daniel"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profilepic"
+        android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:textColor="#563D27"
-        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="two bananas for a pound, three bananas for a euro"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         />
 
 
     <TextView
+        android:id="@+id/c1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="170dp"
-        android:text="Henry Benjamin"
-        android:textColor="#563D27"
-        android:textSize="20dp"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="355dp"
-        android:layout_marginTop="170dp"
-        android:src="@drawable/cross"
-        />
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="220dp"
-        android:text="Emily James"
-        android:textColor="#563D27"
-        android:textSize="20dp"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="355dp"
-        android:layout_marginTop="220dp"
-        android:src="@drawable/cross"
+        android:text="7"
+        android:textSize="18sp"
+        android:layout_below="@+id/name"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="80dp"
         />
 
     <TextView
+        android:id="@+id/c2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="270dp"
-        android:text="Lily Thomas"
-        android:textColor="#563D27"
-        android:textSize="20dp"
+        android:text="410"
+        android:textSize="18sp"
+        android:layout_below="@+id/name"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="170dp"
+        />
+
+    <TextView
+        android:id="@+id/c3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="387"
+        android:textSize="18sp"
+        android:layout_below="@+id/name"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="270dp"
+        />
+
+    <TextView
+        android:id="@+id/c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="posts"
+        android:textSize="13sp"
+        android:layout_below="@+id/c1"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        />
+    <TextView
+        android:id="@+id/c5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="followers"
+        android:textSize="13sp"
+        android:layout_below="@+id/c1"
+        android:textStyle="bold"
+        android:layout_marginLeft="170dp"
+        />
+    <TextView
+        android:id="@+id/c6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="following"
+        android:textSize="13sp"
+        android:layout_below="@+id/c1"
+        android:textStyle="bold"
+        android:layout_marginLeft="270dp"
         />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="355dp"
-        android:layout_marginTop="270dp"
-        android:src="@drawable/cross"
+        android:layout_width="389dp"
+        android:layout_height="367dp"
+        android:layout_below="@+id/c1"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="11dp"
+        android:src="@drawable/posts"
         />
+
+
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
+        android:background="#Fcfcfc"
         >
 
         <ImageView
@@ -166,7 +213,6 @@
             android:src="@drawable/profile" />
 
         <TextView
-            android:id="@+id/proftxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/search"
@@ -195,4 +241,5 @@
             tools:ignore="TextSizeCheck" />
 
     </RelativeLayout>
+
 </RelativeLayout>

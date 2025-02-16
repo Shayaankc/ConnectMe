@@ -2,6 +2,7 @@ package com.shayaankhalid.i220863
 
 import android.content.Intent
 import android.os.Bundle
+import android.provider.ContactsContract.Profile
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -49,6 +50,15 @@ class HomePage : AppCompatActivity() {
             val intent = Intent(this, Search::class.java)
             startActivity(intent)
         }
-
+        val button1 = findViewById<ImageView>(R.id.prof)
+        button1.setOnClickListener {
+            val intent = Intent(this, ProfilePage::class.java)
+            startActivity(intent)
+        }
+        val button2 = findViewById<TextView>(R.id.proftxt)
+        button2.setOnClickListener {
+            val intent = Intent(this, ProfilePage::class.java)
+            startActivity(intent)
+        }
     }
 }

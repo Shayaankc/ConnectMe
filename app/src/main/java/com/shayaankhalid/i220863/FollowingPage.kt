@@ -1,6 +1,9 @@
 package com.shayaankhalid.i220863
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +18,18 @@ class FollowingPage : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val back = findViewById<ImageView>(R.id.backbutton)
+        back.setOnClickListener {
+            finish()
+        }
+
+        val followings = findViewById<TextView>(R.id.followers)
+        followings.setOnClickListener {
+            startActivity(Intent(this,FollowersPage::class.java))
+            finish()
+
         }
     }
 }

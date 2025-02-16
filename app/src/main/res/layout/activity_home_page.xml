@@ -361,6 +361,7 @@
                 android:src="@drawable/profile" />
 
             <TextView
+                android:id="@+id/proftxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/search"
