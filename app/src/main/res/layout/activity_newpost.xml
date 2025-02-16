@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,4 +7,98 @@
     android:layout_height="match_parent"
     tools:context=".newpost">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cross"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/newposttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Post"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/nextpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textColor="#563D27"
+        android:textSize="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="290dp"
+        android:layout_height="371dp"
+        android:layout_below="@+id/newposttxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/npost" />
+
+    <TextView
+        android:id="@+id/recenttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#563D27"
+        android:text="Recents"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/recenttxt"
+        android:layout_below="@+id/img"
+        android:src="@drawable/forward"
+        android:layout_marginTop="11dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/img"
+        android:src="@drawable/album"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="60dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/img"
+        android:src="@drawable/cam"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="394dp"
+        android:layout_height="355dp"
+        android:layout_below="@+id/recenttxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/pics" />
+
+
+
+</RelativeLayout>

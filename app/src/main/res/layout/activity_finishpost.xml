@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".finishpost">
+
+
+<ImageView
+    android:id="@+id/cross"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/cross"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    />
+
+<TextView
+    android:id="@+id/newposttxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="New Post"
+    android:textStyle="bold"
+    android:textSize="19dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    />
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="410dp"
+        android:layout_height="359dp"
+        android:layout_below="@+id/newposttxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/finalpost" />
+
+    <EditText
+        android:id="@+id/messageinput"
+        android:layout_width="350sp"
+        android:layout_height="100sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="29dp"
+        android:layout_weight="1"
+        android:background="#4C3E30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/img"
+        android:hint="Add a caption..."
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/sharetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_textviewbrown"
+        android:paddingLeft="150dp"
+        android:paddingRight="150dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        />
+</RelativeLayout>

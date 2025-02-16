@@ -35,7 +35,16 @@ class Contacts : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
+        val button4 = findViewById<ImageView>(R.id.circle)
+        button4.setOnClickListener {
+            val intent = Intent(this, StoryCam::class.java)
+            startActivity(intent)
+        }
+        val button5  = findViewById<ImageView>(R.id.plus)
+        button5.setOnClickListener {
+            val intent = Intent(this, StoryCam::class.java)
+            startActivity(intent)
+        }
 
     }
 }

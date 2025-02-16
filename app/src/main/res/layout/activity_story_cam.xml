@@ -3,10 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DDDDDD">
-
-
+    android:background="#DDDDDD"
+    android:id="@+id/main"
+    >
     <ImageView
+        android:id="@+id/cross"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/cross"
@@ -15,6 +16,7 @@
         />
 
     <TextView
+        android:id="@+id/nexttxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
@@ -55,7 +57,7 @@
         android:src="@drawable/bgcircle" />
 
     <ImageView
-        android:id="@+id/bg"
+        android:id="@+id/gall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
