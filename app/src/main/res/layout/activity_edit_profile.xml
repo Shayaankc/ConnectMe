@@ -35,7 +35,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/eptxt"
         android:layout_marginTop="30dp"
-        android:src="@drawable/oliviaD" />
+        android:src="@drawable/oliviad" />
 
     <TextView
         android:id="@+id/name"

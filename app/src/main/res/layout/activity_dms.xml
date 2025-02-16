@@ -38,7 +38,7 @@
       android:layout_marginLeft="310dp"
       android:layout_toRightOf="@+id/backbutton"
       android:background="@color/white"
-      android:src="@drawable/NewDm" />
+      android:src="@drawable/newdm" />
 
     <TextView
         android:id="@+id/dmtxt"
